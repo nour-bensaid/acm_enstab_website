@@ -7,22 +7,21 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./ACM_Website.css">
+        <link rel="stylesheet" href="./MyStyle.css">
     </head>
+    <div class="header-bg"></div>
     <body>
-        <div class="header-bg"></div>
         <header>
             <div class="header_container">
                 <div class="header_section_one">
-                    <div class="logo" id="home">
+                    <div class="col-1 col-m-1 logo" id="home">
                         <img src=".\Logos_Icons\ACM_white_logo.png" alt="ACM ENSTAB Logo" style="width: 95px;">
                     </div>
-                    <nav>
+                    <nav class="col-5">
                         <ul>
                           <li><a href="#home">Home</a></li>
                           <li><a href="#about">About</a></li>
                           <li><a href="#events">Events</a></li>
-                          <li><a href="#workshops">Workshops</a></li>
                           <li><a href="#team">Team</a></li>
                         </ul>
                         <button class="contact-us-btn">Contact Us</button>
@@ -41,7 +40,7 @@
         </header>
         <main>
             <div class="bar_section">
-                <div class="bar_container">
+                <div class="col-8 col-m-8 bar_container">
                     <div class="bar_element">
                         <h3>+40</h3>
                         <h4>Active Member</h4>
@@ -57,10 +56,10 @@
                 </div>
             </div>
             <div class="about_us_container" id="about">
-                <div class="photo_container">
+                <div class="col-6 col-m-12 photo_container">
                     <img src="./Assets_Images/AboutUs_Image.png" alt="Executive Board">
                 </div>
-                <div class="description_container">
+                <div class="col-5 col-m-12 description_container">
                     <div class="title">About us</div>
                     <p>ACM ENSTAB is a club based in the National School of Advanced Sciences and Technologies of Borj Cedria (ENSTAB).
                         <br><br>
@@ -68,13 +67,13 @@
                 </div>
             </div>
             <div class="ensta_challenge_container" id="events">
-                <div class="description_container">
+                <div class="col-5 description_container">
                     <div class="title">ENSTA Challenge</div>
                     <p>ENSTA Challenge is a competitive programming contest for ENSTAB students.
                         <br><br>
                         During this competition, teams of 3 will be given a set of problems to try to solve them using programming languages (C/C++).</p>
                 </div>
-                <div class="photo_container">
+                <div class="col-6 photo_container">
                     <img src="./Assets_Images/ENSTA_Challenge.png" alt="ENSTA Challenge">
                 </div>
             </div>
@@ -82,19 +81,19 @@
                 <h5>Previous Events</h5>
             </div>
             <div class="event_container">
-                <div class="previous">
+                <div class="col-1 previous">
                     <img id="pevious_event" src="./Assets_Images/previous_event_icon.png"></img>
                 </div>
-                <div class="event_photos_container">
+                <div class="col-12 event_photos_container">
                     <div class="events_element">
                         <img src="./Assets_Images/IEEE_XTREME.png">
                         <div class="event_description">
                             <div class="date">
-                                <img src="./Assets_Images/calendar.png"></img>
+                                <img src="./Assets_Images/calendar.png" style="margin-right: 15px;"></img>
                                 <h7>21/10/2022</h7>
                             </div>
                             <div class="location">
-                                <img src="./Assets_Images/location.png"></img>
+                                <img src="./Assets_Images/location.png" style="margin-right: 15px;"></img>
                                 <h7>ENSTAB</h7>
                             </div>
                         </div>
@@ -103,17 +102,17 @@
                         <img src="./Assets_Images/ACM_XTREME_CODE.png">
                         <div class="event_description">
                             <div class="date">
-                                <img src="./Assets_Images/calendar.png"></img>
+                                <img src="./Assets_Images/calendar.png" style="margin-right: 15px;"></img>
                                 <h7>19/10/2022</h7>
                             </div>
                             <div class="location">
-                                <img src="./Assets_Images/location.png"></img>
+                                <img src="./Assets_Images/location.png" style="margin-right: 15px;"></img>
                                 <h7>ENSTAB</h7>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="next">
+                <div class="col-1 next">
                     <img id="next_event" src="./Assets_Images/next_event_icon.png"></img>
                 </div>
             </div>
@@ -121,10 +120,10 @@
                 <h5>Executive Board</h5>
             </div>
             <div class="team_container" id="team">
-                <div class="previous">
+                <div class="col-1 previous">
                     <img id="previous_team" src="./Assets_Images/previous_executive_board.png">
                 </div>
-                <div class="images_container">
+                <div class="col-12 images_container">
                     <div class="images_per_row">
                         <img src="./Assets_Images/Mariem.png">
                         <img src="./Assets_Images/Emna.png">
@@ -136,7 +135,7 @@
                         <img src="./Assets_Images/Imene.png">
                     </div>
                 </div>
-                <div class="next">
+                <div class="col-1 next">
                     <img id="next_team" src="./Assets_Images/next_executive_board.png">
                 </div>
             </div>
@@ -144,7 +143,7 @@
                 <h5>Contact Us</h5>
             </div>
             <div class="contact_us_container">
-                <div class="form_container">
+                <div class="col-5 form_container">
                     <div id="form" class="form">form</div>
                 </div>
                 <div class="photo_container">
@@ -155,18 +154,18 @@
         </main>
         <footer>
             <h8>Follow us</h8>
-            <div class="social_media">
+            <div class="col-2 social_media">
                 <a target="_blank" href="https://www.facebook.com/acmenstab">
-                    <img src="./Assets_Images/facebook.png">
+                    <img src="./Assets_Images/facebook.png" style="margin-right: 15px;">
                 </a>
                 <a target="_blank" href="https://www.linkedin.com/company/acm-ensta-borjcedria/">
-                    <img src="./Assets_Images/linkedin.png">
+                    <img src="./Assets_Images/linkedin.png" style="margin-right: 15px;">
                 </a>
                 <a target="_blank" href="https://www.instagram.com/acm_enstab/?hl=fr">
-                    <img src="./Assets_Images/instagram.png">
+                    <img src="./Assets_Images/instagram.png" style="margin-right: 15px;">
                 </a>
                 <a target="_blank" href="https://www.youtube.com/@acmenstab7548">
-                    <img src="./Assets_Images/youtube.png">
+                    <img src="./Assets_Images/youtube.png" style="margin-right: 15px;">
                 </a>
             </div>
         </footer>
